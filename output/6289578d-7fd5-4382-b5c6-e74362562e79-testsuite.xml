@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631170027865' stop='1631170049199'>
+    <name>はじめてのCodeceptJS:</name>
+    <title>はじめてのCodeceptJS:</title>
+    <test-cases>
+        <test-case start='1631170027868' status='passed' stop='1631170048685'>
+            <name>並列化テスト</name>
+            <title>並列化テスト</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631170028816' status='passed' stop='1631170030249'>
+                    <name>I am on page "https://www.google.com"</name>
+                    <title>I am on page "https://www.google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170030249' status='passed' stop='1631170030908'>
+                    <name>I fill field "q", "並列化 CodeceptJS"</name>
+                    <title>I fill field "q", "並列化 CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170030909' status='passed' stop='1631170031053'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170031053' status='passed' stop='1631170032054'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170032054' status='passed' stop='1631170032699'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170032700' status='passed' stop='1631170037528'>
+                    <name>I click "並列実行 - CodeceptJSには - Runebook.dev"</name>
+                    <title>I click "並列実行 - CodeceptJSには - Runebook.dev"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170037529' status='passed' stop='1631170043535'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170043536' status='passed' stop='1631170043663'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170043663' status='passed' stop='1631170048685'>
+                    <name>I see "CodeceptJS 3.0 (日本語)"</name>
+                    <title>I see "CodeceptJS 3.0 (日本語)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

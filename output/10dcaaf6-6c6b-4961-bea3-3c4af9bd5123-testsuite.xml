@@ -1,0 +1,259 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631169953819' stop='1631169992789'>
+    <name>はじめてのCodeceptJS:</name>
+    <title>はじめてのCodeceptJS:</title>
+    <test-cases>
+        <test-case start='1631169953821' status='passed' stop='1631169962787'>
+            <name>Googleで検索、表示内容の確認</name>
+            <title>Googleで検索、表示内容の確認</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631169954578' status='passed' stop='1631169956119'>
+                    <name>I am on page "https://www.google.com"</name>
+                    <title>I am on page "https://www.google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169956120' status='passed' stop='1631169956594'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169956594' status='passed' stop='1631169956718'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169956719' status='passed' stop='1631169957720'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169957720' status='passed' stop='1631169957754'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169957755' status='passed' stop='1631169959958'>
+                    <name>I click "CodeceptJS"</name>
+                    <title>I click "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169959958' status='passed' stop='1631169962608'>
+                    <name>I fill field "#algolia-search-input", "puppetter"</name>
+                    <title>I fill field "#algolia-search-input", "puppetter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169962608' status='passed' stop='1631169962734'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169962734' status='passed' stop='1631169962786'>
+                    <name>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</name>
+                    <title>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631169963133' status='passed' stop='1631169973983'>
+            <name>並列化テスト</name>
+            <title>並列化テスト</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631169963918' status='passed' stop='1631169964734'>
+                    <name>I am on page "https://www.google.com"</name>
+                    <title>I am on page "https://www.google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169964734' status='passed' stop='1631169965221'>
+                    <name>I fill field "q", "並列化 CodeceptJS"</name>
+                    <title>I fill field "q", "並列化 CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169965221' status='passed' stop='1631169965360'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169965360' status='passed' stop='1631169966375'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169966376' status='passed' stop='1631169966408'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169966408' status='passed' stop='1631169968523'>
+                    <name>I click "並列実行 - CodeceptJSには - Runebook.dev"</name>
+                    <title>I click "並列実行 - CodeceptJSには - Runebook.dev"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169968524' status='passed' stop='1631169971420'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169971420' status='passed' stop='1631169971534'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169971534' status='passed' stop='1631169973983'>
+                    <name>I see "CodeceptJS 3.0 (日本語)"</name>
+                    <title>I see "CodeceptJS 3.0 (日本語)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631169974290' status='passed' stop='1631169983089'>
+            <name>データ駆動テスト | {"searchWord":"puppetter","responseWord":"Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"}</name>
+            <title>データ駆動テスト | {"searchWord":"puppetter","responseWord":"Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631169974988' status='passed' stop='1631169975922'>
+                    <name>I am on page "https://www.google.co.jp/"</name>
+                    <title>I am on page "https://www.google.co.jp/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169975922' status='passed' stop='1631169976285'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169976286' status='passed' stop='1631169976410'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169976410' status='passed' stop='1631169977422'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169977422' status='passed' stop='1631169977925'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169977925' status='passed' stop='1631169980263'>
+                    <name>I click "CodeceptJS"</name>
+                    <title>I click "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169980263' status='passed' stop='1631169982931'>
+                    <name>I fill field "#algolia-search-input", "puppetter"</name>
+                    <title>I fill field "#algolia-search-input", "puppetter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169982931' status='passed' stop='1631169983057'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169983057' status='passed' stop='1631169983089'>
+                    <name>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</name>
+                    <title>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631169983404' status='passed' stop='1631169992484'>
+            <name>データ駆動テスト | {"searchWord":"selenium","responseWord":"Testing with WebDriver"}</name>
+            <title>データ駆動テスト | {"searchWord":"selenium","responseWord":"Testing with WebDriver"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631169984166' status='passed' stop='1631169985304'>
+                    <name>I am on page "https://www.google.co.jp/"</name>
+                    <title>I am on page "https://www.google.co.jp/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169985304' status='passed' stop='1631169985689'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169985689' status='passed' stop='1631169985816'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169985816' status='passed' stop='1631169986823'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169986823' status='passed' stop='1631169987309'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169987309' status='passed' stop='1631169989299'>
+                    <name>I click "CodeceptJS"</name>
+                    <title>I click "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169989299' status='passed' stop='1631169992154'>
+                    <name>I fill field "#algolia-search-input", "selenium"</name>
+                    <title>I fill field "#algolia-search-input", "selenium"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169992154' status='passed' stop='1631169992280'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631169992280' status='passed' stop='1631169992484'>
+                    <name>I see "Testing with WebDriver"</name>
+                    <title>I see "Testing with WebDriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

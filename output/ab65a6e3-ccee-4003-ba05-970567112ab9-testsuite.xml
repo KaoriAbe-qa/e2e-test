@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631170027936' stop='1631170043097'>
+    <name>はじめてのCodeceptJS:</name>
+    <title>はじめてのCodeceptJS:</title>
+    <test-cases>
+        <test-case start='1631170027938' status='passed' stop='1631170042270'>
+            <name>データ駆動テスト | {"searchWord":"puppetter","responseWord":"Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"}</name>
+            <title>データ駆動テスト | {"searchWord":"puppetter","responseWord":"Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631170029556' status='passed' stop='1631170030753'>
+                    <name>I am on page "https://www.google.co.jp/"</name>
+                    <title>I am on page "https://www.google.co.jp/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170030754' status='passed' stop='1631170031372'>
+                    <name>I fill field "q", "CodeceptJS"</name>
+                    <title>I fill field "q", "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170031372' status='passed' stop='1631170031508'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170031509' status='passed' stop='1631170032514'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170032514' status='passed' stop='1631170033843'>
+                    <name>I grab text from "h3"</name>
+                    <title>I grab text from "h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170033844' status='passed' stop='1631170038371'>
+                    <name>I click "CodeceptJS"</name>
+                    <title>I click "CodeceptJS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170038371' status='passed' stop='1631170041895'>
+                    <name>I fill field "#algolia-search-input", "puppetter"</name>
+                    <title>I fill field "#algolia-search-input", "puppetter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170041896' status='passed' stop='1631170042053'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631170042053' status='passed' stop='1631170042270'>
+                    <name>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</name>
+                    <title>I see "Now you can use Puppeteer for Firefox (min version: Firefox/63.0.4)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
